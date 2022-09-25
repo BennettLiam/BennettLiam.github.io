@@ -1,0 +1,144 @@
+@font-face{
+	font-family: ChessType;
+	src: url(ChessType.ttf);
+}
+
+
+body{
+	font-family: arial, sans-serif;
+	text-align:center;
+	background-color: #603E90;
+}
+
+img{
+	border-radius: 15px;	
+	max-height: 200px;
+}
+
+.padding{
+	padding:15px;
+}
+
+.paddingBottom{
+	padding-bottom: 15px;
+}
+
+.noPadding{
+	padding: 0px;
+}
+.noMargin{
+	margin: 0px;
+}
+
+.margin{
+	margin: 10px;
+}
+
+.marginBottom{
+	margin-bottom:10px;
+}
+
+
+.plainBorder{
+	background-color: white;
+	border-radius: 15px;
+}
+
+.border-round{
+	background: url("images/Ribbon.png");
+	background-repeat: repeat-x;
+	background-color: white;
+	background-size: auto 10px;
+	box-shadow: 0px 0px 8px #bdb9bb;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+.labels{
+	font-weight:bold;
+	text-align: center;
+}
+
+
+h1{
+	font-size:3em; 
+	font-family: ChessType, sans-serif;
+}
+h2{
+	font-size:1.8em; 
+	font-family: ChessType, sans-serif;
+	text-decoration: underline;
+	text-underline-offset: 0.3em;
+	text-align:center;
+	word-wrap: break-word;
+}
+h3{
+	font-weight: bold;
+}
+
+#signature{
+	font-size: 1.5em;
+}
+
+a.linkFormat{
+  text-decoration: none;
+  transition: 0.2s;
+  color: #333333;
+}
+
+a:hover.linkFormat, a:focus.linkFormat{
+	text-decoration: none;
+	color: #bba58e;
+    outline: none;
+} 
+
+.displayInline{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+	text-align:center;
+	}
+
+ul{
+	text-align: left;
+}
+ol{
+	font-weight: bold;
+}
+
+iframe{
+	border:0;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width : 992px) {
+	
+	#signature{
+	text-align: right;	
+	height: 100px;
+	display: flex;
+	align-items: center;
+	}
+	
+	h1{
+	font-size:4.5em;
+	}	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width : 1200px) {
+	
+	.labels{
+		text-align:right;
+	}
+	
+	#newsletterForm{
+		text-align: left;
+	}
+	
+	#aboutSection{
+		text-align: left;
+	}
+	
+	
+}

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Chess Weekly</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+			rel="stylesheet" 
+			integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+			crossorigin="anonymous">
+	<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container-fluid margin noPadding">
+		<div class="col-xs-12 col-lg-offset-1 col-lg-10 paddingBottom" >	
+			<div id="header" class="container-fluid noPadding text-nowrap plainBorder">
+				<div class="col-xs-12 col-md-2" >
+					<a href="index.html" id="logoDiv"><img src="images/logo.png" width="100" height="100" id="logo" alt="Chess weekly logo"></a>
+				</div>
+				<div class="col-xs-12 col-md-8">
+					<h1>chess weekly</h1>
+				</div>
+				<div class="col-xs-12 col-md-2">
+					<p id="signature" class="noMargin">Liam Bennett</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-lg-offset-1 col-lg-10 paddingBottom" >
+			<div class="col-xs-12">
+				<h2>blog</h2>
+			</div>
+			<div id="main" class="container-fluid noPadding plainBorder">
+				<div class="col-xs-12 col-lg-offset-1 col-lg-10 padding" >
+					<div class="border-round" id="london">
+						<h3>The London System</h3>
+						<div class="row">
+							<div class="col-xs-6">
+								<img src="images/LondonSystem.png" class="img-responsive pull-right" alt="London system diagram">
+							</div>
+							<div class="col-xs-6 text-left">
+								<ol><li>d4       d5 </li>
+								<li>Bf4     e6</li>
+								 <li>Nf3   Nf6</li> 
+								<li>e3       c6 </li>
+								<li>Bd3     Bd6 </li>
+								<li>Bg3     O-O </li>
+								<li>Nbd2  Qc7 </li>
+								<li>c3        ...</li></ol>
+							</div>
+						</div>
+						<p>The London System is an excellent beginner-friendly opening. 
+						It makes intuitive sense, it sets itself up quickly, and it translates to higher levels well.</p>
+						<h3>Top Tips</h3>
+						<ul>
+							<li>Always check your opponent’s move before making your own.</li>
+							<li>Castle to the opposite side to your opponent and use your pawns to push into their territory!</li>
+							<li>Rather than trading dark squared bishops, move it back to g3 and re-capture with your h pawn. This will open your rook for a strong attack!</li>
+							<li>Move your queen to c2 and see if your opponent notices that you are attacking their h pawn. This also allows you to castle queenside if needed.</li>
+							<li>If your opponent seems solid, castle king side and move your rook to e1. This will reinforce your e pawn and allow you to push it into  their territory!</li>
+						</ul>
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#flipFlop">
+						Open chess viewer
+						</button>
+
+						<!-- The modal -->
+						<div class="modal fade" id="flipFlop" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title" id="modalLabel">Modal Title</h4>
+						</div>
+						<div class="modal-body">
+						<iframe width=600 height=371 src="https://lichess.org/study/embed/6JYaM1xi/pSwRUlOL?theme=blue"></iframe>
+						</div>
+						<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+						</div>
+						</div>			
+					</div>
+				</div>
+				<div class="col-xs-12 col-lg-offset-1 col-lg-10 paddingBottom">
+					<div class="border-round" id="dutch">
+						<h3>The Dutch Defence</h3>
+						<div class="row">
+							<div class="col-xs-6"><img src="images/DutchDefence.png" class="img-responsive pull-right" alt="Dutch Defence diagram"></div>
+							<div class="col-xs-6 text-left">
+								<ol>
+									<li>d4 f5 </li>
+									<li>c4 Nf6</li>
+									<li>Nf3 g6</li> 
+									<li>g3 Bg7</li>
+									<li>Bg2 d6 </li>
+									<li>O-O O-O </li>
+								</ol>
+							</div>
+						</div>
+						<p>Struggling to make your own plans when playing as black? Try the Dutch Defence for quick development with a strong attacking plan.</p>
+						<h3>Top Tips</h3>
+						<ul>
+							<li>Always check your opponent’s move before making your own.</li>
+							<li>If you can grab more space by playing e5 then do it!</li>
+							<li>If you played e5 then develop your light squared bishop to e6, if not then play b6 then bishop to b6. Be careful about opening this line to your rook, make sure you get a piece on that diagonal before your opponent!</li>
+							<li>Develop your other knight to either d7 or c6.</li>
+							<li>Be careful about the diagonal line to your king, it may be wise to play h6 and tuck your king into h7 for safety.</li>
+							<li>Make sure to develop your queen to enable your rooks to become connected.</li>
+						</ul>
+					</div>	
+				</div>
+				<div class="col-xs-12 col-lg-offset-1 col-lg-10 paddingBottom">
+					<div class="border-round" id="horwitz">
+						<h3>Benefits of the Horwitz</h3>
+						<div class="row">
+							<div class="col-xs-6">
+								<img src="images/Horwitz.png" class="img-responsive pull-right" alt="Horwitz diagram">
+							</div>
+							<div class="col-xs-6 text-left">
+								<ol>
+									<li>d4 e6</li>
+								</ol>
+							</div>
+						</div>
+						<p>If you're bored of the Queen's Gambit Declined, struggling against the London, or want to tempt d4 players into a French, give the diverse 
+						Horwitz opening a try.</p>
+						<p>London: If your opponent continues their plan of playing the London, you can immediately follow up with a quick c5! This move is multi-purpose. 
+						Firstly, if your opponent decides to capture this pawn, you can immediately re-capture with your bishop, for quick development. If your opponent 
+						plays Nf3 or e3, then the plan is play Qb6! This move has two threats. Firstly, you are pressuring the center with an x-ray attack on your opponents d4 pawn.
+						Secondly, you are threatening to take on b2. This pawn will be hard to defend without making concessions on the dark squares on your opponent's queenside. 
+						These tips will allow you to play aggressively against the somewhat passive London.</p>	
+						<p>e4: Without immediate pressure on the centre, your opponent may believe you are going for a passive setup such as the hedgehog. Some players when 
+						faced with this situation go back to their first-principles of chess, namely, control the centre. This may tempt a usual d4 player to opt for the 
+						move e4 for their second move. We follow this up with a quick d5, now transposing into a main-line French defence! If you are unfamiliar with the 
+						plans of the French you may see this as a disadvantage. However, we advise training in the french as your d4 playing opponent will not have much 
+						practice in this line and may make easy mistakes for you to capitalise on! One quick tip we will give will be to transfer your g8 knight to f5 using 
+						the e7 square, for the most effecctive pressure on the opponent's centre.</p>	
+						<p>c4: If your opponent opts for c4 anyway, potentially following their Queen's Gambit line regardless of your move, we can reply with 
+						either d5 or Nf6. By playing d5 we transpose into the Queen's Gambit Declined, a solid but usually slow and boring opening. Alternatively we 
+						may play Nf6, transposing into an Indian defense. This opening scores better for black and can give more diverse games than the QGD. We won't go too 
+						much into the theory of the indian here, await our next article where we will cover this opening!</p>	
+						<p>Others: If your opponent plays many other moves, most likely you wil go for an Indian set-up with an immediate Nf6. </p>	
+						<p> Thats it for the Horwitz, give it a try then come back and leave a comment with how you got on!</p>					
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-lg-offset-1 col-lg-10" >
+			<div class="col-xs-12 plainBorder" id="footer">
+				<p class="noMargin">&copy;2022 Liam Bennett </p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
