@@ -2,6 +2,16 @@ body {
 	margin:0;
 	padding:0;
 	font-family:Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+	color: #000000;
+	font-weight: normal;
+	/*Same as above*/
+	/*font: normal 16px Arial, Helvetica, sans-serif;*/
+	line-height: 1.6em;
+}
+
+nav{
+	font-size: 2.5rem;
 }
 
 a {
@@ -11,20 +21,30 @@ a {
 
 a:hover {
 	color: #ffffff;
+	text-decoration: none;
 }
 
 a:active {
-	color: green;
+	color: gray;
 }
 
 li {
 	padding: 0px;
 	list-style: none;
-	font-family:Arial;
 }
 
 ul{
 	text-align:center;
+}
+
+img{
+	max-width: 200px;
+	width: auto;
+	margin: 0 auto;
+}
+
+h1 {
+	font-weight: bold;
 }
 
 .current-a{
@@ -36,36 +56,15 @@ ul{
 	color:#ffffff;
 }
 
-
-/*a:visited{
-	color:black;
-}*/
-
-body {
-	background-color: #ffffff;
-	color: #000000;
-	font-size: 18px;
-	font-weight: normal;
-	/*Same as above*/
-	/*font: normal 16px Arial, Helvetica, sans-serif;*/
-	line-height: 1.6em;
-}
-
-.container h1 {
-		font-weight: bold;
-		font-size: 16px;
-}
-
 .box {
 	background-color: none;
-	border-left: 5px #f96b8e solid;
+	border: 5px #f96b8e solid;
+	border-radius: 15px;
 	padding: 5px;
 	margin-bottom:10px;
-	font-size: 10px;
 }
 .box h1{
 	font-weight:bold;
-	font-size:16px;
 }
 
 .my-form{
@@ -87,16 +86,15 @@ body {
 
 .block{
 	margin:0px;
-	padding: 0px;
+	padding: 10px;
 	background-color:#ffffff;
 }
 
 .footer-block {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	width: 33vh;
-	vertical-align: middle;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20vw;
 	text-align: center;
 	margin: auto;
 	display: inline-block;
@@ -108,7 +106,6 @@ body {
 }
 
 #boldStuff{
-	font-size:20px;
 	text-align:center;
 }
 #main-footer {
@@ -126,20 +123,10 @@ body {
 	padding: 0px;
 }
 
-#sidebar li{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-height: 33vh;
-vertical-align: middle;
-text-align: center;
-margin: auto;
-}
 
-#sidebar ul{
+
+#sidebar{
 	background-image: linear-gradient(#f96b8e,#db67e4, #827dfd);
-	height: 100vh;
-	width: inherit;
 }
 
 .link-button {
@@ -164,6 +151,20 @@ margin: auto;
 	border-radius: 50%;
 	border:3px #000000 solid;
 	
+}
+
+.padding{
+	padding:15px;
+}
+.noPadding{
+	padding:0px;
+}
+
+.margin{
+	margin:15px;
+}
+.noMargin{
+	margin: 0px;
 }
 
 /* Custom, iPhone Retina */ 
@@ -192,7 +193,28 @@ margin: auto;
 		height: 100vh;
 	}
 	#main-block{
+		position: absolute;
+		top:0;
+		right:0;
 		height: 100vh;
+	}
+	#main-footer{
+		position: fixed;
+	}
+	#sidebar{
+		position: fixed;
+	}
+	#sidebar ul{
+		height: 100%;
+	}
+	#sidebar li{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	height: 33vh;
+	vertical-align: middle;
+	text-align: center;
+	margin: auto;
 	}
 }
 
