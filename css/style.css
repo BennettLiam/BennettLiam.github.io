@@ -5,9 +5,6 @@ body {
 	background-color: #ffffff;
 	color: #000000;
 	font-weight: normal;
-	/*Same as above*/
-	/*font: normal 16px Arial, Helvetica, sans-serif;*/
-	line-height: 1.6em;
 }
 
 nav{
@@ -26,6 +23,7 @@ a:hover {
 
 a:active {
 	color: gray;
+	text-decoration: none;
 }
 
 li {
@@ -48,11 +46,6 @@ h1 {
 }
 
 .current-a{
-	color:#ffffff;
-}
-
-.button:hover{
-	background:red;
 	color:#ffffff;
 }
 
@@ -90,45 +83,6 @@ h1 {
 	background-color:#ffffff;
 }
 
-.footer-block {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 20vw;
-	text-align: center;
-	margin: auto;
-	display: inline-block;
-}
-
-#main-block {
-	padding: 0px;
-	
-}
-
-#boldStuff{
-	text-align:center;
-}
-#main-footer {
-	text-align: center;
-	background-color: #cccccc;
-	bottom: 0px;
-}
-
-#main-footer img {
-	width:60px;
-}
-	
-#sidebar {
-	color: #ffffff;
-	padding: 0px;
-}
-
-
-
-#sidebar{
-	background-image: linear-gradient(#f96b8e,#db67e4, #827dfd);
-}
-
 .link-button {
 	color: #e0e0e0;
 	background-color: none;
@@ -156,6 +110,9 @@ h1 {
 .padding{
 	padding:15px;
 }
+.largePadding{
+	padding:30px;
+}
 .noPadding{
 	padding:0px;
 }
@@ -165,6 +122,21 @@ h1 {
 }
 .noMargin{
 	margin: 0px;
+}
+
+#main-footer {
+	text-align: center;
+	background-color: #cccccc;
+}
+
+#main-footer img {
+	width:60px;
+}
+
+#sidebar{
+	background-image: linear-gradient(#f96b8e,#db67e4, #827dfd);
+	color: #ffffff;
+	padding: 0px;
 }
 
 /* Custom, iPhone Retina */ 
@@ -200,6 +172,7 @@ h1 {
 	}
 	#main-footer{
 		position: fixed;
+		bottom: 0px;
 	}
 	#sidebar{
 		position: fixed;
