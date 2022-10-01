@@ -184,7 +184,8 @@ h1 {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-	height: 33vh;
+		/* change this 4 to the number of nav links */
+	height: calc(100vh/4);
 	vertical-align: middle;
 	text-align: center;
 	margin: auto;
