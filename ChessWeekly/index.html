@@ -4,55 +4,57 @@
 <head>
 	<meta charset="utf-8">
 	<title>Chess Weekly</title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-			rel="stylesheet" 
-			integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
-			crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link type="text/css" rel="stylesheet" href="style.css">
 </head>
 
 <body>
 	<div class="container-fluid margin noPadding">
-		<div class="col-xs-12 col-lg-offset-1 col-lg-10 paddingBottom" >	
+		<div class="col-xs-12 col-lg-offset-1 col-lg-10 paddingBottom">
 			<div id="header" class="container-fluid noPadding text-nowrap plainBorder">
-					<div class="col-xs-12 col-md-2" >
-						<a href="index.html" id="logoDiv"><img src="images/logo.png" width="100" height="100" id="logo" alt="Chess weekly logo"></a>
-					</div>
-					<h1 class="col-xs-12 col-md-8">chess weekly</h1>
-					<div class="col-xs-12 col-md-2">
+				<div class="col-xs-12 col-md-2">
+					<a href="index.html" id="logoDiv"><img src="images/logo.png" width="100" height="100" id="logo"
+							alt="Chess weekly logo"></a>
+				</div>
+				<h1 class="col-xs-12 col-md-8">chess weekly</h1>
+				<div class="col-xs-12 col-md-2">
 					<a href="/index.html" class="col-xs-12 col-md-2" id="signature" class="noMargin">Liam Bennett</a>
 				</div>
 			</div>
 		</div>
 		<div class="col-xs-12 col-lg-offset-1 col-lg-10 paddingBottom">
 			<div id="main" class="container-fluid noPadding plainBorder">
-				<div class="col-xs-12 col-md-3" id="newsletterForm" >
+				<div class="col-xs-12 col-md-3" id="newsletterForm">
 					<div class="container-fluid border-round margin">
 						<div class="row">
 							<h2 class="col-xs-12">sign up to our newsletter</h2>
 						</div>
 						<div class="row">
-							<label for="openings" class="col-xs-12 col-lg-5 labels">What is your favourite opening</label>
-							<select class="col-xs-offset-1 col-xs-10 col-lg-offset-1 col-lg-5" name="openings" id="openings">
+							<label for="openings" class="col-xs-12 col-lg-5 labels">What is your favourite
+								opening</label>
+							<select class="col-xs-offset-1 col-xs-10 col-lg-offset-1 col-lg-5" name="openings"
+								id="openings">
 								<option value="London">London</option>
 								<option value="Dutch">Dutch</option>
 								<option value="Queen's Gambit">Queen's Gambit</option>
 								<option value="Indian">Indian</option>
 								<option value="Other">Other</option>
 							</select>
-						</div>	
-						<div class="row">								
-							<p class="col-xs-12 col-lg-5 labels">Quick info</p>
-							<p class="col-xs-12 col-lg-7">A solid choice</p>			
 						</div>
 						<div class="row">
-							<label for="skill" class="col-xs-12 col-lg-5 labels">How would you describe your chess Skill?</label>
+							<p class="col-xs-12 col-lg-5 labels">Quick info</p>
+							<p class="col-xs-12 col-lg-7">A solid choice</p>
+						</div>
+						<div class="row">
+							<label for="skill" class="col-xs-12 col-lg-5 labels">How would you describe your chess
+								Skill?</label>
 							<select class="col-xs-offset-1 col-xs-10 col-lg-offset-1 col-lg-5" name="skill" id="skill">
 								<option value="beginner">Beginner (0-800)</option>
 								<option value="intermediate">Intermediate (800-1400)</option>
 								<option value="advanced">Advanced (1400-2000)</option>
 								<option value="master">Master (2000+)</option>
-							</select>		
+							</select>
 						</div>
 						<div class="row">
 							<p class="col-xs-12 col-lg-5 labels">Newsletter frequency</p>
@@ -60,7 +62,7 @@
 								<input type="radio" id="html" name="frequency" value="monthly">
 								<label for="html">Monthly</label><br>
 								<input type="radio" id="css" name="frequency" value="weekly">
-								<label for="css">Weekly</label><br>						
+								<label for="css">Weekly</label><br>
 							</div>
 						</div>
 						<div class="row">
@@ -71,11 +73,11 @@
 								<input type="checkbox" id="twitch" name="twitch" value="twitch">
 								<label for="twitch"> Twitch</label><br>
 								<input type="checkbox" id="chessCom" name="chessCom" value="chessCom">
-								<label for="chessCom"> Chess.com</label><br> 
+								<label for="chessCom"> Chess.com</label><br>
 								<input type="checkbox" id="lichess" name="lichess" value="lichess">
-								<label for="lichess"> Lichess</label><br> 
+								<label for="lichess"> Lichess</label><br>
 								<input type="checkbox" id="other" name="other" value="other">
-								<label for="other"> Other</label><br> 
+								<label for="other"> Other</label><br>
 							</div>
 						</div>
 						<div class="row">
@@ -86,35 +88,46 @@
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-6 noPadding" id="blogImages">
-					<div class="container-fluid border-round margin" >
+					<div class="container-fluid border-round margin">
 						<div class="col-xs-offset-2 col-xs-8">
 							<h2>recent blog posts</h2>
 						</div>
 						<div class="col-xs-12 col-lg-6 padding">
 							<div class="border-round">
-								<a href="blog.html#london" class="linkFormat"><h3>The London System</h3></a>
-								<img src="images/LondonSystem.png" class="img-responsive center-block" alt="London system diagram">
-								<p>The London System is an excellent beginner-friendly opening. 
-								It makes intuitive sense, it sets itself up quickly, and it translates to higher levels well.</p>
-                            </div>
-						</div>					
-						<div class="col-xs-12 col-lg-6 padding">						
+								<a href="blog.html#london" class="linkFormat">
+									<h3>The London System</h3>
+								</a>
+								<img src="images/LondonSystem.png" class="img-responsive center-block"
+									alt="London system diagram">
+								<p>The London System is an excellent beginner-friendly opening.
+									It makes intuitive sense, it sets itself up quickly, and it translates to higher
+									levels well.</p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-lg-6 padding">
 							<div class="border-round">
-								<a href="blog.html#dutch" class="linkFormat"><h3>The Dutch Defence</h3></a>
-								<img src="images/DutchDefence.png" class="img-responsive center-block" alt="Dutch Defence diagram">
-								<p>Struggling to make your own plans when playing as black? Try the Dutch Defence for quick development with a strong attacking plan.</p>
-							</div>	
-						</div>					
+								<a href="blog.html#dutch" class="linkFormat">
+									<h3>The Dutch Defence</h3>
+								</a>
+								<img src="images/DutchDefence.png" class="img-responsive center-block"
+									alt="Dutch Defence diagram">
+								<p>Struggling to make your own plans when playing as black? Try the Dutch Defence for
+									quick development with a strong attacking plan.</p>
+							</div>
+						</div>
 						<div class="col-xs-12 col-lg-offset-3 col-lg-6 padding">
 							<div class="border-round">
-								<a href="blog.html#horwitz" class="linkFormat"><h3>Benefits of the Horwitz</h3></a>
+								<a href="blog.html#horwitz" class="linkFormat">
+									<h3>Benefits of the Horwitz</h3>
+								</a>
 								<img src="images/Horwitz.png" class="img-responsive center-block" alt="Horwitz diagram">
-								<p>If you're bored of the Queen's Gambit Declined, struggling against the London, or want to tempt d4 players into a French, give the diverse Horwitz opening a try.</p>				
+								<p>If you're bored of the Queen's Gambit Declined, struggling against the London, or
+									want to tempt d4 players into a French, give the diverse Horwitz opening a try.</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-3" id="aboutSection" >
+				<div class="col-xs-12 col-md-3" id="aboutSection">
 					<div class="container-fluid border-round margin ">
 						<div class="row">
 							<div class="col-xs-12">
@@ -126,16 +139,20 @@
 							<p class="col-xs-12 col-lg-6">
 								<a href="https://lichess.org/training">Lichess puzzles</a>
 							</p>
-						</div>								
+						</div>
 						<div class="row">
-							<div class="col-xs-12 col-lg-6 labels"><p>Our blog</p></div>
-							<div class="col-xs-12 col-lg-6"><p><a href="blog.html">Our blog</a></p></div>
+							<div class="col-xs-12 col-lg-6 labels">
+								<p>Our blog</p>
+							</div>
+							<div class="col-xs-12 col-lg-6">
+								<p><a href="blog.html">Our blog</a></p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="col-xs-12 col-lg-offset-1 col-lg-10" >
+		<div class="col-xs-12 col-lg-offset-1 col-lg-10">
 			<div class="col-xs-12 plainBorder" id="footer">
 				<p class="noMargin">&copy;2022 Liam Bennett </p>
 			</div>
